@@ -1,0 +1,35 @@
+# Ignore system files
+.DS_Store
+Thumbs.db
+
+# Ignore log files
+*.log
+
+# Ignore temporary files
+*.tmp
+*.bak
+*.swp
+*.swo
+
+# Ignore database dumps (optional if large or sensitive)
+*.sql~
+
+# Ignore IDE or editor folders
+.vscode/
+.idea/
+
+# Ignore OS generated files
+ehthumbs.db
+Icon?
+Desktop.ini
+
+# Ignore node_modules or Python virtual env (if applicable in future)
+node_modules/
+venv/
+__pycache__/
+
+# Ignore compiled files (future-proof)
+*.class
+*.o
+*.out
+*.exe
