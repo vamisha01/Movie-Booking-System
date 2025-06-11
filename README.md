@@ -1,22 +1,27 @@
-# Movie-Booking-System-Database
-Relational Database for Movie Booking System
+# 🎥 Movie Booking System Database
 
+A relational database schema for a movie booking platform built with MySQL.
 
-This project is a relational database schema for a movie booking system using MySQL.
-
-## 📂 Structure
-- `database/movie_booking.sql`: All SQL scripts (table creation, sample data)
-- `docs/ER_diagram.png`: Database design ER diagram (optional)
+## 📂 Project Structure
+- `/database/movie_booking.sql`: Contains all SQL scripts — schema and sample data.
+- `/docs/ER_diagram.png`: Optional ER diagram of the database structure.
 
 ## ⚙️ Requirements
-- MySQL (or compatible RDBMS)
+- MySQL Server (Recommended version: 8.0+)
+- SQL Client (Workbench, CLI, or others)
 
 ## 📌 Features
-- Manage theatres, shows, seats, customers, bookings
-- Real-time seat availability logic
+- Manage Theatres, Shows, Seats, Customers, and Bookings.
+- Real-time seat availability tracking.
+- Supports basic booking operations.
 
 ## 🚀 How to Use
-1. Import `movie_booking.sql` in your MySQL server
-2. Run queries as per your application needs
+1. Clone this repository.
+2. Import `movie_booking.sql` into your MySQL server.
+3. Query and use the schema as needed for your project/backend integration.
+
+## 📧 Contact
+Feel free to reach out if you need help expanding or integrating this database into a full-stack project.
+
 
 
